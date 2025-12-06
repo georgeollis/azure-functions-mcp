@@ -1,1 +1,17 @@
-waiting...
+{
+  "version": "2.0",
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  },
+  "extensions": {
+     "mcp": {
+      "instructions": "This is a pet MCP server",
+      "serverName": "PetMCPServer",
+      "serverVersion": "2.0.0",
+      "system": {
+        "webhookAuthorizationLevel": "Anonymous"
+      }
+    }  
+  }
+}
